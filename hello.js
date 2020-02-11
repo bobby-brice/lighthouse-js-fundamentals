@@ -1,5 +1,5 @@
-const sayHello = function() {
-  console.log("Hello World");
+const sayHello = function(name) {
+  console.log("Hello" + name);
 }
 
 sayHello();
